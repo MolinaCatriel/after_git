@@ -5,10 +5,21 @@
 }
 body{
     background-color: rgb(99, 29, 165);
+    color: bisque;
 }
-h1{
+h1, h2 {
     color: white;
     text-align: center;
     font-size: 2.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ul{
+    display: flex;
+}
+li{
+    padding: 20px;
+    list-style-type: none;
+}
+p{
+    padding: 20px;
 }
